@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "21b4fa0d-1bf1-4257-adec-d764ea0a4659",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosBarrasPLP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente={'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version,AñoMesNum= {\">=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)) <=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+5)\"}>}",
+  "tags": []
+}
